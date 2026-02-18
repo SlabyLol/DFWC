@@ -77,7 +77,7 @@ void handleSkip() {
 }
 
 void startAccessPoint() {
-  WiFi.softAP("DFWC-Network", "12345678");
+  WiFi.softAP("JustATest", "T1E2S3T4");
   Serial.println("Hotspot started");
   Serial.println(WiFi.softAPIP());
 }
